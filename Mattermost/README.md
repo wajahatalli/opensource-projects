@@ -6,6 +6,6 @@
 ##In this configuration file the port i have assigned is 1000. you can choose your own.##
 
 <h1>Login of PostgreSQL</h1>
-<strong>Username : <p>PentabitLabs</p></strong> <p>PentabitLabs</p>
-<strong>Password :</strong> <p>ConsoliAds786</p>
+<strong>Username : </strong>PentabitLabs
+<strong>Password : </strong>ConsoliAds786
 <br>
