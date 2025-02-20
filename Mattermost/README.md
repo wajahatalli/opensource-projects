@@ -27,4 +27,11 @@
     <li>1. sudo crontab -e 0 2 * * * /opt/mattermost_backup.sh >> /opt/mattermost_backup.log 2>&1</li>
     <li>2. To view the genereated LOGS of this backup, run <strong>"cat /opt/mattermost_backup.log"</strong>.</li>
 </ul>
-<strong><br></strong>
+<strong><hr></strong>
+
+<h1>To Restore the Backup</h1>
+<ul>
+    <li>Move into the backup directory, In my case "/opt/mattermost_backup"</li>
+    <li>run the restore.sh file "./restore.sh</li>
+    <li>Data will be restored</li>
+</ul>
