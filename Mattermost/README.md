@@ -1,16 +1,17 @@
-#Create a mattermost folder and move into the directory.
+<h1>Create a mattermost folder and move into the directory.</h1>
 <ul>
     <li>mkdir mattermost && cd mattermost</li>
     <li>nan docker-compose.yml</li>
     <li>docker-compose up -d</li>
     <li>http://your-ip-address:1000</li>
 </ul>
-##In this configuration file the port i have assigned is 1000. you can choose your own.##
+##In this configuration file the port I have assigned is 1000. you can choose your own.##
 
 <h1>Login of PostgreSQL</h1>
-<strong>Username : </strong>PentabitLabs
-<br>
-<strong>Password : </strong>ConsoliAds786
+<ul>
+    <li><strong>Username : PentabitLabs</strong></li>
+    <li><strong>Password : ConsoliAds786</strong></li>
+</ul>
 <br>
 
 <strong><hr></strong>
