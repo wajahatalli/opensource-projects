@@ -16,17 +16,15 @@
 <strong><hr></strong>
 
 <h1>Automate the Backup of All the mattermost Volumes and other data</h1>
-<br>
 <ul>
     <li>1. run the <strong>mattermost-backup.sh</strong> script in your host system directory "/opt/mattermost_backup".</li>
     <li>2. It will backup everything <strong>(PostgreSQL + Mattermost volumes)</strong> daily.</li>
     <li>3. Run this script to test or do the backup.</li>
     <li>4. You should see backups generated in /opt/mattermost-backup/. </li>
 </ul>
-<br>
 <h2>Automate the script to run everyday</h2>
 <ul>
     <li>1. sudo crontab -e 0 2 * * * /opt/mattermost_backup.sh >> /opt/mattermost_backup.log 2>&1</li>
     <li>2. To view the genereated LOGS of this backup, run <strong>"cat /opt/mattermost_backup.log"</strong>.</li>
 </ul>
-<br>
+<strong><br></strong>
