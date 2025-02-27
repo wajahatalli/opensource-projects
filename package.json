@@ -1,0 +1,10 @@
+{
+  "name": "sample-cicd",
+  "version": "1.0.0",
+  "description": "CI/CD with Jenkins",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo 'No tests yet'"
+  }
+}
